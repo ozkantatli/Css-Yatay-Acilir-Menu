@@ -1,0 +1,40 @@
+.content ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.content li{
+    float: left;
+    position: relative;
+    width: 200px;
+}
+
+.content li ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 21px;
+}
+.content ul li a{
+    background-color: #EFEFEF;
+    border-color: #CCCCCC #888888 #555555 #bbbbbb;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    display: block;
+    font: bold 12px Arial;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.content ul li a:hover{
+    background-color: #FFFFFF;
+    color: #FF0000;
+}
+
+.content li:hover ul{
+    display: block;
+}
